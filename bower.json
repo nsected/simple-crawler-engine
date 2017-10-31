@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "description": "",
+  "main": "",
+  "authors": [
+    "nsected <nsected@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
