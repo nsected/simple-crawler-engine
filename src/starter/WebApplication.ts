@@ -2,7 +2,6 @@ import ApplicationBuilder = require('./ApplicationBuilder');
 import http = require('http');
 import * as express from 'express';
 import ServiceConfig = require("./ServiceConfig");
-import RouteConfig = require("./RouteConfig");
 
 export class WebApplication
 {
@@ -18,7 +17,7 @@ export class WebApplication
     constructor(public config)
     {
         this._config = config;
-        this.port = this.normalizePort(process.env.PORT || this._config.Server.Port);
+        this.port = this.normalizePort( this._config.Server.Port);
         var app = express();
         this.configure(app);
         this._instance = app;
