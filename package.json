@@ -15,7 +15,7 @@
     "body-parser": "~1.15.2",
     "connect-pg-simple": "^3.1.2",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
+    "debug": "~4.1.1",
     "del": "^3.0.0",
     "express": "~4.14.0",
     "knex": "^0.12.6",
